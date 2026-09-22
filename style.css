@@ -138,10 +138,6 @@ nav a:hover {
     background-color: #ddd;
 }
 
-/* =========================
-   DATOS DESTACADOS
-========================= */
-
 main > section:nth-of-type(3) {
     background-color: #1B456B;
     color: white;
