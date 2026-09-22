@@ -109,12 +109,11 @@ nav a:hover {
 }
 
 #informacion img {
-    width: 30%;
-    height: 120px;
-    object-fit: cover;
+    width: 35%;
+    height: 150px;
+    object-fit: contain;
     float: right;
-    margin-top: -130px;
-    background-color: black;
+    margin-top: -100px;
 }
 
 #galeria {
