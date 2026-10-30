@@ -33,7 +33,7 @@
     </header>
 
     <main>
-        <section id="informacion">
+        <section id="informacion" class="seccion informacion">
             <h2>¿QUÉ ES LA URBA?</h2>
             <p>
                 La Unión de Rugby de Buenos Aires organiza una gran parte
@@ -51,51 +51,54 @@
             <img src="imagen-informacion.jpg" alt="Jugadores disputando un partido de rugby">
         </section>
 
-        <section id="galeria">
+        <section id="galeria" class="seccion galeria">
             <h2>GALERÍA</h2>
-            <img src="imagen1.jpg" alt="Partido de rugby">
-            <img src="imagen2.jpg" alt="Jugadores de rugby en acción">
-            <img src="imagen3.jpg" alt="Cancha de rugby">
+            <div class="galeria-imagenes">
+                <img src="imagen1.jpg" alt="Partido de rugby">
+                <img src="imagen2.jpg" alt="Jugadores de rugby en acción">
+                <img src="imagen3.jpg" alt="Cancha de rugby">
+            </div>
         </section>
 
-        <section>
+        <section id="datos-destacados" class="seccion-destacados">
             <h2>DATOS DESTACADOS</h2>
-            <div>
-                <h3>Torneos</h3>
-                <p>
-                    Información sobre los diferentes campeonatos de la URBA.
-                </p>
-            </div>
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <img src="imagen4.jpg" alt="copa macro">
+                    <div class="tarjeta-contenido">
+                        <h3>Torneos</h3>
+                        <p>Información sobre los diferentes campeonatos de la URBA.</p>
+                        <a class="boton-tarjeta" href="https://urba.org.ar/" target="_blank" rel="noopener noreferrer">Ver torneos</a>
+                    </div>
+                </article>
 
-            <div>
-                <h3>Clubes</h3>
-                <p>
-                    Conocé los equipos que participan en las competencias.
-                </p>
-            </div>
+                <article class="tarjeta">
+                    <img src="imagen5.jpg" alt="logos de clubes">
+                    <div class="tarjeta-contenido">
+                        <h3>Clubes</h3>
+                        <p>Conocé los equipos que participan en las competencias.</p>
+                        <a class="boton-tarjeta" href="https://urba.org.ar/" target="_blank" rel="noopener noreferrer">Conocer clubes</a>
+                    </div>
+                </article>
 
-            <div>
-                <h3>Posiciones</h3>
-                <p>
-                    Consultá las tablas y el rendimiento de cada equipo.
-                </p>
-            </div>
-
-            <div>
-                <h3>Resultados</h3>
-                <p>
-                    Enterate de los resultados de los últimos partidos.
-                </p>
+                <article class="tarjeta">
+                    <img src="imagen6.jpg" alt="partido">
+                    <div class="tarjeta-contenido">
+                        <h3>Posiciones y resultados</h3>
+                        <p>Consultá las tablas y enterate de los resultados de los últimos partidos.</p>
+                        <a class="boton-tarjeta" href="https://urba.org.ar/" target="_blank" rel="noopener noreferrer">Ver información</a>
+                    </div>
+                </article>
             </div>
         </section>
 
-        <section>
+        <section class="seccion mas-informacion">
             <h2>PARA CONOCER MÁS INFORMACIÓN</h2>
             <p>
                 Visitá el sitio oficial de la URBA para conocer más sobre
                 sus torneos, clubes y actividades.
             </p>
-            <a href="https://urba.org.ar/" target="_blank"> Visitar sitio oficial de la URBA </a>
+            <a class="boton-oficial" href="https://urba.org.ar/" target="_blank" rel="noopener noreferrer">Visitar sitio oficial de la URBA</a>
         </section>
     </main>
 
